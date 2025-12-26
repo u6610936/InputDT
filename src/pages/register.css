@@ -10,6 +10,12 @@
   width: 420px;
 }
 
+.title {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
 .form-group {
   margin-top: 12px;
 }
@@ -44,18 +50,22 @@
   margin: 6px 0;
 }
 
-.divider {
-  margin: 18px 0;
-  border: none;
-  border-top: 1px solid #ddd;
-}
-
 .result {
   line-height: 1.7;
   font-size: 18px;
+  margin-bottom: 18px;
 }
 
 .value {
   color: #b23b3b;
   font-weight: 700;
+}
+
+.btn {
+  padding: 6px 12px;
+  border: 1px solid #bfbfbf;
+  background: #eee;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 20px;
 }
